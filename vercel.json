@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/analyze", "destination": "/api?type=analyze" },
+    { "source": "/api/ocr", "destination": "/api?type=ocr" }
+  ],
+  "functions": { "api/index.js": { "maxDuration": 120 } }
+}
